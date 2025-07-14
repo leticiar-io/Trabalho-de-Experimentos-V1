@@ -460,7 +460,7 @@ footer a {
 
 aside {
   width: 100%;
-  min-height: 140vh;
+  min-height: 160vh;
   position: relative;
   overflow: hidden;
   background-color: #1a1a1a;
@@ -762,7 +762,7 @@ li {
   }
 
   aside {
-    min-height: 140vh;
+    min-height: 160vh;
   }
 }
 
