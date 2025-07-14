@@ -1066,6 +1066,10 @@ li {
   #zen-requirements h3 {
     margin-bottom: 2rem;
   }
+
+  aside {
+    min-height: 140vh;
+  }
 }
 
 /* Tablet */
@@ -1217,6 +1221,10 @@ li {
   #zen-requirements h3 {
     margin-bottom: 2rem;
   }
+
+  aside {
+    min-height: 140vh;
+  }
 }
 
 /* Mobile */
@@ -1269,5 +1277,9 @@ li {
   #zen-summary p,
   #zen-summary a {
     font-size: var(--step-0);
+  }
+
+  aside {
+    min-height: 140vh;
   }
 }
