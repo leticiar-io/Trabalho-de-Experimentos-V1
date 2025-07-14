@@ -756,6 +756,10 @@ li {
   #zen-requirements h3 {
     margin-bottom: 2rem;
   }
+
+  aside {
+    min-height: 140vh;
+  }
 }
 
 @media (max-width: 1121px) {
