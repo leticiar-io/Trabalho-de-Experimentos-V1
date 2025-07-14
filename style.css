@@ -899,10 +899,6 @@ li {
     margin-bottom: 2rem;
   }
 
-  aside {
-    height: 160vh;
-  }
-
   .wrapper {
     margin-top: 3rem;
   }
@@ -910,6 +906,10 @@ li {
   .wrapper h3 {
     margin-top: 5rem;
     margin-bottom: 3rem;
+  }
+
+  aside {
+    min-height: 160vh;
   }
 }
 
