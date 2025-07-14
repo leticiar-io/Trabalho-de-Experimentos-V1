@@ -401,6 +401,11 @@ header::after {
 }
 
 footer {
+	order: 2;
+	margin-top: auto;
+
+	bottom: 0;
+	margin-top: auto;
 	width: 100%;
 	min-height: 50vh;
 	position: relative;
@@ -429,25 +434,37 @@ footer a {
 
 aside {
 	width: 100%;
-	min-height: 280vh;
+	min-height: 120vh;
 	position: relative;
 	overflow: hidden;
 	background-color: #1A1A1A;
-	background-image: url("Resources.png");
+	background-image: url("DESIGN A.png");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: 90% center;
 	background-size: cover;
 	z-index: 1;
+	order: 1;
 }
 
 .wrapper{
 	display: flex;
-	justify-content: center;
-	align-content:	center;
-	gap: 0.5rem;
+	flex-direction: column;
+
+	margin-top: 5rem;
+}
+
+.wrapper a {
+	color: black;
+	font-variant-settings: "wgth" 400;
+}
+
+.wrapper h3{
+	margin-top: 5rem;
+	margin-bottom: 3rem;
 }
 
 li {
+	list-style: none;
 	line-height: 160%;
 }
 
@@ -818,6 +835,19 @@ li {
 
 	#zen-requirements h3{
 		margin-bottom: 2rem;
+	}
+
+	aside {
+		height: 160vh;
+	}
+
+	.wrapper{
+		margin-top: 3rem;
+	}
+
+	.wrapper h3{
+		margin-top: 5rem;
+		margin-bottom: 3rem;
 	}
 }
 
