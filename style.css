@@ -536,6 +536,19 @@ li {
   }
 }
 
+.extra1 {
+  width: 100%;
+  min-height: 180vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  background-image: url("Resources.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+
 /* DISPLAY DO CADU - 1440px 900px*/
 @media (min-width: 900px) and (max-width: 1950px) {
   abbr {
