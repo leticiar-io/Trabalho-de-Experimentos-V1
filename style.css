@@ -28,7 +28,7 @@ abbr {
 
 a:hover {
   font-weight: bold;
-  transition: 0.6s;
+  transition: all 0.25s ease-out;
 }
 
 #zen-requirements a {
@@ -162,7 +162,7 @@ p {
 }
 
 #zen-summary p {
-  text-align: justify;
+  text-align: center;
 }
 
 #zen-summary a {
@@ -541,11 +541,11 @@ li {
   abbr {
     text-decoration: none;
     font-variation-settings: "wght" 600;
+    font-style: italic;
   }
 
-  abbr:hover {
-    font-weight: bold;
-    transition: 0.6s;
+  header abbr {
+    font-style: normal;
   }
 
   h1,
